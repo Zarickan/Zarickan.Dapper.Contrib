@@ -9,7 +9,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Zarickan.Dapper.Contrib</PackageId>
-    <PackageVersion>1.60.1</PackageVersion>
+    <PackageVersion>1.60.1.1</PackageVersion>
     <PackageProjectUrl>https://github.com/Zarickan/Zarickan.Dapper.Contrib</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/Zarickan/Zarickan.Dapper.Contrib/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
