@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Dapper.Contrib</AssemblyName>
+    <PackageTags>orm;sql;micro-orm;dapper</PackageTags>
+    <Title>Dapper.Contrib</Title>
+    <Description>The official collection of get, insert, update and delete helpers for Dapper.net. Also handles lists of entities and optional "dirty" tracking of interface-based entities.</Description>
+    <Authors>Sam Saffron;Johan Danforth</Authors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.Emit" Version="4.3.0" />
+    <PackageReference Include="Dapper" Version="1.60.6" />
+  </ItemGroup>
+</Project>
