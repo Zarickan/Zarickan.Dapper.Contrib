@@ -2,11 +2,16 @@
   <PropertyGroup>
     <AssemblyName>Dapper.Contrib</AssemblyName>
     <PackageTags>orm;sql;micro-orm;dapper</PackageTags>
-    <Title>Dapper.Contrib</Title>
-    <Description>The official collection of get, insert, update and delete helpers for Dapper.net. Also handles lists of entities and optional "dirty" tracking of interface-based entities.</Description>
-    <Authors>Sam Saffron;Johan Danforth</Authors>
+    <Title>Zarickan.Dapper.Contrib</Title>
+    <Description>Special version of Dapper.Contrib which does not quote identifiers when using PostgreSQL</Description>
+    <Authors>Sam Saffron;Johan Danforth;Zarickan</Authors>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Zarickan.Dapper.Contrib</PackageId>
+    <PackageVersion>1.60.1</PackageVersion>
+    <PackageProjectUrl>https://github.com/Zarickan/Zarickan.Dapper.Contrib</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Zarickan/Zarickan.Dapper.Contrib/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.3.0" />
